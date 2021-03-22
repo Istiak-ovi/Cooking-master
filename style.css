@@ -1,0 +1,26 @@
+.btn{
+    border-radius: 1.5rem;
+    padding: 9px 20px;
+}
+.search-box{
+    position: relative;
+}
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+#foodContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+}
+.foodArea{
+    border: 1px solid gray;
+    border-radius:20px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
